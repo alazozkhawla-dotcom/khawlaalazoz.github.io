@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="خولة العزوز - استشارات نفسية وأسرية ودورات تدريبية في السلام الداخلي والتوازن في العلاقات والزواج الناجح ودعم النساء المطلقات.">
+  <title>خولة العزوز | استشارات نفسية وأسرية</title>
+  <style>
+    :root{
+      --rose:#a96f78; --rose-dark:#7d4d57; --cream:#fbf7f3;
+      --beige:#eadbd2; --text:#3e3433; --white:#fff;
+      --shadow:0 12px 35px rgba(85,55,55,.10);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:"Tahoma","Arial",sans-serif;background:var(--cream);color:var(--text);line-height:1.8}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(251,247,243,.95);backdrop-filter:blur(10px);border-bottom:1px solid #eee}
+    nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+
+    .brand{display:flex;align-items:center;gap:10px;color:var(--rose-dark);font-weight:800}
+    .brand img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid #c6a15f}
+    .brand span{font-size:1.05rem}
+    .brand small{display:block;font-size:.65rem;color:#887372;font-weight:400;direction:ltr}
+
+    .logo span{display:block;font-size:.72rem;color:#887372;font-weight:400}
+    .navlinks{display:flex;gap:22px;list-style:none;font-size:.95rem}
+    .navlinks a:hover{color:var(--rose)}
+    .hero{padding:90px 0 75px;background:
+      radial-gradient(circle at 85% 25%,#eadbd2 0,transparent 28%),
+      linear-gradient(135deg,#fbf7f3,#f6ece7)}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:55px}
+    .eyebrow{color:var(--rose-dark);font-weight:700;letter-spacing:.5px;margin-bottom:10px}
+    h1{font-size:clamp(2.3rem,5vw,4.5rem);line-height:1.15;color:#4b3838;margin-bottom:18px}
+    .hero p{font-size:1.15rem;color:#665958;max-width:650px}
+    .buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 22px;border-radius:999px;font-weight:700;transition:.2s}
+    .btn-primary{background:var(--rose);color:white;box-shadow:0 8px 20px rgba(169,111,120,.25)}
+    .btn-primary:hover{background:var(--rose-dark);transform:translateY(-2px)}
+    .btn-outline{border:1px solid var(--rose);color:var(--rose-dark);background:white}
+    .portrait{min-height:390px;border-radius:38px;background:#171515;
+      display:flex;align-items:center;justify-content:center;color:#fff;text-align:center;
+      box-shadow:var(--shadow);position:relative;overflow:hidden;border:1px solid #b18a4d}
+    .portrait img{width:100%;height:100%;min-height:390px;object-fit:cover;display:block}
+    section{padding:78px 0}
+    .section-head{text-align:center;max-width:720px;margin:0 auto 40px}
+    .section-head h2{font-size:2rem;color:#4b3838;margin-bottom:8px}
+    .section-head p{color:#756665}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:white;border:1px solid #eee2dd;border-radius:22px;padding:28px;box-shadow:var(--shadow);transition:.2s}
+    .card:hover{transform:translateY(-5px)}
+    .icon{font-size:2rem;margin-bottom:12px}
+    .card h3{font-size:1.15rem;margin-bottom:8px;color:var(--rose-dark)}
+    .card p{color:#716463;font-size:.95rem}
+    .about{background:#fff}
+    .about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:center}
+    .quote{background:var(--beige);padding:35px;border-radius:28px;color:#5d4847;font-size:1.25rem;text-align:center}
+    .about-text h2{font-size:2rem;margin-bottom:14px}
+    .about-text p{color:#6b5c5a;margin-bottom:12px}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .step{padding:26px;border-radius:20px;background:#fff;border:1px solid #eee2dd;text-align:center}
+    .num{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;margin:0 auto 12px;background:var(--rose);color:#fff;font-weight:800}
+    .contact{background:linear-gradient(135deg,#7d4d57,#a96f78);color:#fff}
+    .contact .section-head h2,.contact .section-head p{color:#fff}
+    .contact-box{max-width:760px;margin:auto;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);padding:32px;border-radius:28px;text-align:center}
+    .phone{font-size:1.5rem;font-weight:800;direction:ltr;display:inline-block;margin:8px 0 20px}
+    footer{padding:24px 0;text-align:center;color:#806f6d;font-size:.9rem}
+    .mobile-menu{display:none}
+    @media(max-width:800px){
+      .navlinks{display:none}.mobile-menu{display:block}
+      .hero-grid,.about-grid{grid-template-columns:1fr}
+      .portrait{min-height:300px}
+      .cards,.steps{grid-template-columns:1fr}
+      .hero{padding-top:60px}
+      section{padding:58px 0}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a class="brand" href="#home">
+  <img src="khawla-alazoz-brand.jpg" alt="خولة العزوز - الشعار والصورة الشخصية">
+  <span>خولة العزوز<small>Khawla Alazoz</small></span>
+</a>
+      <ul class="navlinks">
+        <li><a href="#about">عن خولة</a></li>
+        <li><a href="#services">الاستشارات</a></li>
+        <li><a href="#courses">الدورات</a></li>
+        <li><a href="#contact">تواصلي معي</a></li>
+      </ul>
+      <div class="mobile-menu">☰</div>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">استشارات نفسية وأسرية • دورات تدريبية</div>
+        <h1>مساحة آمنة<br>نحو حياة أكثر توازناً</h1>
+        <p>أساعدك على فهم ذاتك، وبناء علاقات أكثر توازناً، وتطوير أسرة يسودها الوعي والاحترام والطمأنينة.</p>
+        <div class="buttons">
+          <a class="btn btn-primary" href="https://wa.me/9733727929?text=مرحباً%20أستاذة%20خولة،%20أرغب%20في%20الاستفسار%20عن%20الاستشارات." target="_blank">احجزي استشارتك</a>
+          <a class="btn btn-outline" href="#courses">اكتشفي الدورات</a>
+        </div>
+      </div>
+      <div class="portrait">
+        <img src="khawla-alazoz-brand.jpg" alt="خولة العزوز - للاستشارات النفسية والأسرية">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container about-grid">
+      <div class="quote">"التغيير يبدأ بخطوة صغيرة، وقرار صادق بأن نمنح أنفسنا فرصة لحياة أكثر سلاماً."</div>
+      <div class="about-text">
+        <h2>أهلاً بكِ في مساحتك الآمنة</h2>
+        <p>أنا <strong>خولة العزوز</strong>، أقدم الاستشارات النفسية والأسرية والدورات التدريبية التي تركز على الوعي بالذات، جودة العلاقات، والاستقرار الأسري.</p>
+        <p>الهدف هو تقديم مساحة داعمة تساعدك على التعبير، الفهم، واكتساب أدوات عملية يمكن تطبيقها في الحياة اليومية.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="section-head">
+        <h2>الاستشارات</h2>
+        <p>جلسات داعمة تركّز على احتياجك وهدفك الشخصي والأسري.</p>
+      </div>
+      <div class="cards">
+        <article class="card"><div class="icon">🌿</div><h3>الاستشارات الفردية</h3><p>مساحة للحوار وفهم التحديات الشخصية وبناء خطوات عملية للتغيير.</p></article>
+        <article class="card"><div class="icon">🤍</div><h3>الاستشارات الأسرية</h3><p>دعم لتحسين التواصل وفهم الاحتياجات وبناء بيئة أسرية أكثر هدوءاً.</p></article>
+        <article class="card"><div class="icon">💞</div><h3>استشارات العلاقات</h3><p>العمل على التوازن، الحدود، الحوار، وفهم أنماط العلاقة.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="courses" style="background:#f7eee9">
+    <div class="container">
+      <div class="section-head">
+        <h2>الدورات التدريبية</h2>
+        <p>برامج عملية لبناء الوعي والمهارات في الحياة الشخصية والأسرية.</p>
+      </div>
+      <div class="cards">
+        <article class="card"><div class="icon">🕊️</div><h3>السلام الداخلي</h3><p>مفاهيم وأدوات تساعد على الهدوء الداخلي وفهم الذات والتعامل مع الضغوط.</p></article>
+        <article class="card"><div class="icon">⚖️</div><h3>التوازن في العلاقات</h3><p>التواصل الصحي، الحدود، الاحتياجات، وبناء علاقات أكثر توازناً.</p></article>
+        <article class="card"><div class="icon">🌸</div><h3>دعم النساء المطلقات</h3><p>دعم وتوعية حول إعادة بناء الذات والتعامل مع نظرة المجتمع والتحديات الاجتماعية.</p></article>
+        <article class="card"><div class="icon">🏡</div><h3>البيت السعيد</h3><p>مبادئ تساعد الأسرة على خلق أجواء قائمة على الحوار والاحترام والمودة.</p></article>
+        <article class="card"><div class="icon">💍</div><h3>مبادئ الزواج الناجح</h3><p>أسس عملية لفهم الشراكة الزوجية والتواصل وإدارة الاختلاف.</p></article>
+        <article class="card"><div class="icon">💐</div><h3>للمقبلين على الزواج</h3><p>تهيئة واعية للحياة الزوجية وفهم التوقعات والمسؤوليات ومهارات الحوار.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <h2>كيف نبدأ؟</h2>
+        <p>ثلاث خطوات بسيطة للوصول إلى الخدمة المناسبة.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><h3>تواصلي</h3><p>أرسلي رسالة عبر واتساب للاستفسار.</p></div>
+        <div class="step"><div class="num">2</div><h3>حددي احتياجك</h3><p>نحدد نوع الاستشارة أو الدورة المناسبة.</p></div>
+        <div class="step"><div class="num">3</div><h3>ابدئي رحلتك</h3><p>نبدأ بخطوات واضحة وداعمة تناسب هدفك.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-head">
+        <h2>تواصلي معي</h2>
+        <p>للاستفسار عن الاستشارات والدورات ومواعيد التسجيل.</p>
+      </div>
+      <div class="contact-box">
+        <div>خولة العزوز</div>
+        <a class="phone" href="tel:+9733727929">+973 3727 929</a>
+        <div>
+          <a class="btn btn-primary" style="background:#fff;color:#7d4d57" href="https://wa.me/9733727929?text=مرحباً%20أستاذة%20خولة،%20أرغب%20في%20الاستفسار%20عن%20الخدمات." target="_blank">تواصلي عبر واتساب</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2026 Khawla Alazoz — جميع الحقوق محفوظة
+</footer>
+</body>
+</html>
